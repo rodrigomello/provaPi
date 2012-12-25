@@ -10,4 +10,4 @@ status dos exercicios
 
 + ex1 -Código terminado (conferir). As questoes teoricas não estão respondidas.
 
-+ ex2 falta a conclusão com base nos resultados
++ ex2 falta conferir a conclusão
