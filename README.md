@@ -11,3 +11,5 @@ status dos exercicios
 + ex1 -Código terminado (conferir). As questoes teoricas não estão respondidas.
 
 + ex2 falta conferir a conclusão
+
++ ex3 falta descobrir o que é a abordagem do logaritmo
