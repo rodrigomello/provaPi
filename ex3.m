@@ -28,13 +28,13 @@ ruidosafft = fft2(ruidosa);
 [x, y] = size(lenafft);
 visualizaLena = lenafft;
 visualizaLena = (visualizaLena([1:x], [1:y]) .- min(min(visualizaLena))) ./(max(max(visualizaLena)) -min(min(visualizaLena)));
-visualizaLena = visualizaLena .* 256;
+visualizaLena = visualizaLena .* 255;
 
 #---Ajusta Lena Ruidosa---#
 [x, y] = size(ruidosafft);
 visualizaRuidosa = ruidosafft;
 visualizaRuidosa = (visualizaRuidosa([1:x], [1:y]) .- min(min(visualizaRuidosa))) ./(max(max(visualizaRuidosa)) -min(min(visualizaRuidosa)));
-visualizaRuidosa = visualizaRuidosa .* 256;
+visualizaRuidosa = visualizaRuidosa .* 255;
 
 #---para conferir se o intervalo foi ajustado para 0 e 256---#
 min(min(visualizaRuidosa))

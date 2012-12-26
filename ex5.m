@@ -16,7 +16,7 @@ f_passAlta = conv2(f, h0, 'same');
 f_passBaixa = conv2(f, h1, 'same');
 
 #Aplique novamente um filtro passa-alta, mas agora na estimativa sem ruído. Visualize os resultados (tome cuidado para visualizar o resultado da aplicação do filtro passa-alta. Dica: visualize o valor absoluto). 
-f_passAlta2 = conv2(f_passBaixa, h1, 'same'); 
+f_passAlta2 = conv2(f_passBaixa, h0, 'same'); 
 
 #---------Plots---------#
 subplot(2, 2, 1), image(f), title('Imagem Ruidosa');
