@@ -12,6 +12,6 @@ status dos exercicios
 
 + ex2 falta conferir a conclusão
 
-+ ex3 falta descobrir o que é a abordagem do logaritmo
++ ex3 Revisar
 
 + ex4 revisar
