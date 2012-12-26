@@ -15,3 +15,6 @@ status dos exercicios
 + ex3 Revisar
 
 + ex4 revisar
+
++ ex5 Revisar!
+Acho que não entendi o que o professor quer dizer com "ache uma estimativa para a imagem da Lena com uma melhor relação sinal-ruído", usei o filtro passa baixa neste caso, mas não sei se está certo.
