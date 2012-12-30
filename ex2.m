@@ -25,7 +25,7 @@ subplot(2,2,2), plot(sb) ,title("sen(wt )+ 1/3 * sen (3wt)+ 1/5 * sen(5wt )");
 subplot(2,2,3), plot(sc) ,title("s (t)=sen (wt )+ 1/3 sen (3wt)+ 1/5 sen(5wt )+  1/7 sen(7wt )+ 1/9 sen(9wt)");
 subplot(2,2,4), plot(sd) ,title("s (t)=sen (wt )+ 1/3 sen (3wt)+ 1/5 sen(5wt )+ ...+ 1/17 sen(17wt )");
 
-%Conforme consideramos componentes de frequências mais altas na composição das funçõesacima, o gráfico se aproxima de uma determinada forma de onda. Que onda é essa? Qual conclusão podemos extrair dessa observação?
+%Conforme consideramos componentes de frequências mais altas na composição das funções acima, o gráfico se aproxima de uma determinada forma de onda. Que onda é essa? Qual conclusão podemos extrair dessa observação?
 
 % O gráfico se aparenta com a forma de uma onda quadrada, sendo representado por uma série de fourrier
 

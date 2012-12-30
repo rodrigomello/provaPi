@@ -30,13 +30,20 @@ n3([1:3],[1:3])
 #inversa
 n3ifft = ifft2(n3);
 #O que você pode dizer sobre a parte imaginária da imagem resultante da transformada inversa? Esta de acordo com o esperado?
+#R: Eu aprendi a jamais esperar nada das pessoas, e nem das transformadas de fourrier!
 
 #mostra as imagens
-subplot(2,3,1), image(l),title("Lena");
-subplot(2,3,2), image(b),title("Babuino");
-subplot(2,3,3), image(n1),title("lena");
-subplot(2,3,4), image(n2),title("babuino");
-subplot(2,3,5), image(real(n3)),title("FFT Lena+Babuino");
-subplot(2,3,6), image(real(n3ifft)),title("IFFT Lena+Babuino");
+colormap(gray(256));
+figure(1), image(l),title("Lena");
+colormap(gray(256));
+figure(2), image(b),title("Babuino");
+colormap(gray(256));
+figure(3), image(n1),title("lena");
+colormap(gray(256));
+figure(4), image(n2),title("babuino");
+colormap(gray(256));
+figure(5), image(real(n3)),title("FFT Lena+Babuino");
+colormap(gray(256));
+figure(6), image(real(n3ifft)),title("IFFT Lena+Babuino");
 
 #O que você conclui dos resultados? A que propriedade da transformada de Fourier você atribui esse resultado?

@@ -21,8 +21,12 @@ aux = fmaxi - fmini;
 %normaliza os valores para o intervalo 0~255
 normal = 255 * ((cropping .- fmini)/(aux));
 
-subplot(2,2,1), image(lena),title("original");
-subplot(2,2,2), image(cropping),title("cropping");
-subplot(2,2,3), image(normal),title("normalizado");
+colormap(gray(256));
+figure(1), image(lena),title("original");
+colormap(gray(256));
+figure(2), image(cropping),title("cropping");
+colormap(gray(256));
+figure(3), image(normal),title("normalizado");
 
-% o efeito colateral dessa abordagem é que perdemos alguns níveis de intensidade na coloração da imagem resultante
+%Um dos efeitos colateriais do Cropping de Fourrier é a perda das informaçoes de alta fequência[bordas].
+% Um dos efeitos colateral da normalização  é que perdemos alguns níveis de intensidade na coloração da imagem resultante.
