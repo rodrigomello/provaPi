@@ -8,13 +8,12 @@ Fazer coletivamente, mas lembrar de realizar pequenas mudanças antes de entrega
 status dos exercicios
 ---------------------
 
-+ ex1 -Código terminado (conferir). As questoes teoricas não estão respondidas.
++ ex1 - As questoes teoricas não estão respondidas!!! Boi aprovou o código!
 
-+ ex2 falta conferir a conclusão
++ ex2 - Falta conferir a conclusão!!!
 
-+ ex3 Revisar
++ ex3 - Revisar![Só não entendi a normalização, by Boi]
 
-+ ex4 revisar
++ ex4 - Cropping de Fourrier Perfeito, nem sei onde você achou esse código![Só não entendi a normalização, by Boi]
 
-+ ex5 Revisar!
-Acho que não entendi o que o professor quer dizer com "ache uma estimativa para a imagem da Lena com uma melhor relação sinal-ruído", usei o filtro passa baixa neste caso, mas não sei se está certo.
++ ex5 - Boi aprovou o código! Teóricas devem ser revisadas!
