@@ -33,17 +33,17 @@ n3ifft = ifft2(n3);
 #R: Eu aprendi a jamais esperar nada das pessoas, e nem das transformadas de fourrier!
 
 #mostra as imagens
-colormap(gray(256));
-figure(1), image(l),title("Lena");
-colormap(gray(256));
-figure(2), image(b),title("Babuino");
-colormap(gray(256));
-figure(3), image(n1),title("lena");
-colormap(gray(256));
-figure(4), image(n2),title("babuino");
-colormap(gray(256));
-figure(5), image(real(n3)),title("FFT Lena+Babuino");
-colormap(gray(256));
-figure(6), image(real(n3ifft)),title("IFFT Lena+Babuino");
+
+figure(1),colormap(gray(256)), image(l),title("Lena");
+
+figure(2),colormap(gray(256)), image(b),title("Babuino");
+
+figure(3),colormap(gray(256)), image(n1),title("lena");
+
+figure(4),colormap(gray(256)), image(n2),title("babuino");
+
+figure(5),colormap(gray(256)), image(real(n3)),title("FFT Lena+Babuino");
+
+figure(6),colormap(gray(256)), image(real(n3ifft)),title("IFFT Lena+Babuino");
 
 #O que você conclui dos resultados? A que propriedade da transformada de Fourier você atribui esse resultado?

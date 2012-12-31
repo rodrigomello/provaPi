@@ -48,14 +48,14 @@ visualizaRuidosa = 1000 * log( 1+ abs(visualizaRuidosa));
 visualizaLena = 1000 * log( 1+ abs(visualizaLena));
 
 #---imprime tudo---#
-colormap(gray(256));
-figure(1), image(lena),title("Lena original");
-colormap(gray(256));
-figure(2), image(ruidosa),title("Lena ruidosa");
-colormap(gray(256));
-figure(3), image(visualizaLena),title("fft lena");
-colormap(gray(256));
-figure(4), image(visualizaRuidosa),title("fft lenaRuidosa");
+
+figure(1),colormap(gray(256)), image(lena),title("Lena original");
+
+figure(2),colormap(gray(256)), image(ruidosa),title("Lena ruidosa");
+
+figure(3),colormap(gray(256)), image(visualizaLena),title("fft lena");
+
+figure(4),colormap(gray(256)), image(visualizaRuidosa),title("fft lenaRuidosa");
 
 #Visualize as imagens das transformadas de Fourier utilizando o artifício do logaritmo,como uma segunda operação pontual, apenas para a visualização. Observando os espectros para as imagens com e sem ruído, o que você conclui?
 
