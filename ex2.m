@@ -28,6 +28,7 @@ subplot(2,2,4), plot(sd) ,title("s (t)=sen (wt )+ 1/3 sen (3wt)+ 1/5 sen(5wt )+ 
 %Conforme consideramos componentes de frequências mais altas na composição das funções acima, o gráfico se aproxima de uma determinada forma de onda. Que onda é essa? Qual conclusão podemos extrair dessa observação?
 
 % O gráfico se aparenta com a forma de uma onda quadrada, sendo representado por uma série de fourrier
+% Quanto maior o número de amostras, melhor será a aproximação do sinal representado do sinal real.
 
 %link de apoio:
 %http://www.searadaciencia.ufc.br/tintim/matematica/fourier/fourier5.htm
