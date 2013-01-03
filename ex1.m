@@ -16,6 +16,7 @@ n2 = b;
 n1([1:x],[y/2:y]) = zeros;
 n2([1:x],[1:y/2]) = zeros;
 
+soma = n1 + n2;
 #DFT
 n1fft = fft2(n1);
 n2fft = fft2(n2);
@@ -45,5 +46,7 @@ figure(4),colormap(gray(256)), image(n2),title("babuino");
 figure(5),colormap(gray(256)), image(real(n3)),title("FFT Lena+Babuino");
 
 figure(6),colormap(gray(256)), image(real(n3ifft)),title("IFFT Lena+Babuino");
+
+figure(7),colormap(gray(256)), image(soma),title("soma");
 
 #O que você conclui dos resultados? A que propriedade da transformada de Fourier você atribui esse resultado?

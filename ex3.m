@@ -44,8 +44,8 @@ min(min(visualizaLena))
 max(max(visualizaLena))
 
 #---Artifio do Log  (altera intervalo)---#
-visualizaRuidosa = 1000 * log( 1+ abs(visualizaRuidosa));
-visualizaLena = 1000 * log( 1+ abs(visualizaLena));
+visualizaRuidosa = 46 * log( 1+ abs(visualizaRuidosa));
+visualizaLena =  46 * log( 1+ abs(visualizaLena));
 
 #---imprime tudo---#
 
