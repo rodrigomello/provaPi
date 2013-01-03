@@ -32,6 +32,7 @@ n3([1:3],[1:3])
 n3ifft = ifft2(n3);
 #O que você pode dizer sobre a parte imaginária da imagem resultante da transformada inversa? Esta de acordo com o esperado?
 #R: Eu aprendi a jamais esperar nada das pessoas, e nem das transformadas de fourrier!
+# com a parte imaginária, a soma das inversas nao é igual a inversa da soma, ao contrário do que acontece com a parte real.
 
 #mostra as imagens
 
@@ -50,3 +51,10 @@ figure(6),colormap(gray(256)), image(real(n3ifft)),title("IFFT Lena+Babuino");
 figure(7),colormap(gray(256)), image(soma),title("soma");
 
 #O que você conclui dos resultados? A que propriedade da transformada de Fourier você atribui esse resultado?
+# a inversa da soma dos sinais no domínio de Fourier é igual a soma dos sinais no domínio contínuo
+# ifft2( fft(n1) + fft(n2) ) = n1 + n2
+# ou seja,
+# ifft2( fft(n1) + fft(n2) ) = ifft2( fft2( n1 + n2 ) )
+# logo,
+# fft(n1) + fft(n2) = fft2( n1 + n2 )
+# isto se deve à distributividade da transformada de Fourier.
